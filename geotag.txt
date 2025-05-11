@@ -1,0 +1,34 @@
+# 📍 GeoTag Overlay Web App
+
+A lightweight web application that allows users to upload any image and add customizable **geotag overlays** (location, coordinates, timestamp) before downloading the final version. Useful for social media, reports, hackathons, or field documentation.
+
+## 🚀 Features
+
+- Upload any image
+- Select geolocation using a map (Leaflet.js)
+- Input or auto-detect date and time
+- Add customizable geotag overlay:  
+  - Address / City  
+  - Latitude / Longitude  
+  - Date & Time  
+- Preview overlay on image
+- Download geotagged image as PNG
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Libraries Used**:
+  - [Leaflet.js](https://leafletjs.com/) – for interactive maps
+  - [html2canvas](https://html2canvas.hertzen.com/) – for converting HTML + overlay into downloadable image
+  - [Geocoding API](https://nominatim.org/release-docs/latest/api/Search/) – reverse geocode Lat/Lng to location (optional)
+- **Backend**: *None needed for MVP* (fully client-side)
+
+## ✅ How It Works
+
+1. **Upload** an image from your device
+2. **Select location** using map (lat/lng automatically captured)
+3. **Enter or pick date/time**
+4. **Generate overlay** with GPS info
+5. **Download final image** with embedded info
+
+## 📦 Folder 
